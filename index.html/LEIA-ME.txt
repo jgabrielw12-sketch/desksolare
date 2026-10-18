@@ -1,0 +1,18 @@
+===================================================================
+SOLARE DESK - SISTEMA CENTRALIZADOR DE WHATSAPP (FRONT-END + BACK-END)
+===================================================================
+
+1. COMO ABRIR E USAR O SITE IMEDIATAMENTE (SEM INSTALAR NADA):
+   - Dê dois cliques no arquivo "Solare_Desk_Site.html" (ou "public/index.html").
+   - Ele abrirá direto no seu navegador (Chrome / Edge) com:
+     * Tela de Login por Colaborador (João - DP, Fiscal, Contábil, Societário, Financeiro)
+     * Painel de Filas com isolamento por setor (LGPD Art. 46)
+     * Simulador do Robô de Triagem ao vivo (com a opção "4. Outros" no Passo 3)
+
+2. COMO CONECTAR AO WHATSAPP REAL DA SOLARE (MODO SERVIDOR NODE.JS):
+   - Instale o Node.js no computador/servidor (https://nodejs.org)
+   - Abra o terminal nesta pasta e execute:
+       npm install
+       npm start
+   - Escaneie o QR Code que aparecerá no terminal usando o WhatsApp da Solare.
+   - Acesse http://localhost:3000 no navegador dos colaboradores.
